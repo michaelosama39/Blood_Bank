@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="edittext" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:color">@color/gray</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:background">@drawable/carve_gray</item>
+    </style>
+
+    <style name="button" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:color">@color/black</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textview" parent="Widget.AppCompat.TextView">
+    <item name="android:textSize">20sp</item>
+    <item name="android:layout_margin">2dp</item>
+    <item name="android:padding">5dp</item>
+    <item name="android:color">@color/gray</item>
+    <item name="android:textColor">@color/red</item>
+    <item name="android:background">@drawable/carve_gray</item>
+    </style >
+
+</resources>

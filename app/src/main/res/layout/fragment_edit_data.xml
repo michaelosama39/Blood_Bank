@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Edit_Data_Fragment"
+    tools:context=".view.fragment.home.EditDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="تعديل البيانات "
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/red"
+            android:layout_marginBottom="30dp"/>
+        <EditText
+            android:id="@+id/editData_name_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="الاسم"
+            android:drawableEnd="@drawable/ic_name_black_24dp"/>
+
+        <EditText
+            android:id="@+id/editData_email_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="البريد الالكتروني "
+            android:drawableEnd="@drawable/ic_email_black_24dp"/>
+
+        <EditText
+            android:id="@+id/editData_data_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="تاريخ الميلاد"
+            android:drawableEnd="@drawable/ic_date_black_24dp"/>
+
+        <Spinner
+            android:id="@+id/editData_type_SPN"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:hint="@string/blood_types"
+            android:layout_margin="15dp"/>
+
+        <EditText
+            android:id="@+id/editData_lastData_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="اخر تاريخ للتبرع "
+            android:drawableEnd="@drawable/ic_date_black_24dp"/>
+
+        <Spinner
+            android:id="@+id/editData_governorate_SPN"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"/>
+
+        <Spinner
+            android:id="@+id/editData_city_SPN"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"/>
+
+        <EditText
+            android:id="@+id/editData_phone_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="رقم الهاتف "
+            android:drawableEnd="@drawable/ic_call_black_24dp"/>
+
+        <EditText
+            android:id="@+id/editData_password_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="كلمه المرور "
+            android:drawableEnd="@drawable/ic_password_black_24dp"/>
+
+        <EditText
+            android:id="@+id/editData_passwordCheck_ET"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            style="@style/edittext"
+            android:layout_margin="15dp"
+            android:hint="تاكيد كلمه المرور "
+            android:drawableEnd="@drawable/ic_password_black_24dp"/>
+
+        <Button
+            android:id="@+id/editData_Edit_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="تعديل"
+            style="@style/edittext"
+            android:gravity="center"
+            android:background="@drawable/carve_gray"/>
+    </LinearLayout>
+</ScrollView>

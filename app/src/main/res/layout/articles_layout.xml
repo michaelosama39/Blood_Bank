@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:src="@drawable/article"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="طرق الوقايه من الامراض "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/carve_red"
+        android:layout_marginTop="198dp"
+        android:layout_marginLeft="19dp"/>
+</RelativeLayout>

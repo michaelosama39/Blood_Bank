@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragment.home.DetailsDonationFragment">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/red"
+    android:text="طلب تبرع: محمد محروس"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/name_TV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="الاسم: محمد محروس "
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/age_TV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="العمر: 24"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/type_TV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="فصيله الدم: a+ "
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/bagsNum_TV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="عدد الاكياس المطلوبه: 3 "
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/hospital_TV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="المستشفي: مستشفي الجامعه للطؤاري "
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/adress_TV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="العنوان: 21 شارع عبد العزيز "
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/phone_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="رقم الجوال: 01286008357 "
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/notes_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="notes"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/map_IMG"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/recyclerDonation_call_BTN"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="اتصال"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/carvve_red"/>
+
+</LinearLayout>

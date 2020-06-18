@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/recycler_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/article"/>
+
+        <TextView
+            android:id="@+id/recycler_textView"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/carve_red"
+            android:text="طرق الوقايه من الامراض"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="226dp"/>
+
+        <CheckBox
+            android:id="@+id/favourite_checkBox"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:checked="false"
+            android:button="@drawable/ic_favorite_black_24dp" />
+
+</RelativeLayout>
+
+
+

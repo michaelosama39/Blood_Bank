@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragment.home.DonationRequestFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/red"
+            android:text="طلب التبرع"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/donationRequest_name_ET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="    الاسم"
+            style="@style/edittext"
+            android:layout_below="@id/TextView1"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/donationRequest_age_ET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="    العمر"
+            android:textColor="@color/red"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_name_ET"
+            android:layout_marginBottom="40dp"/>
+
+        <Spinner
+            android:id="@+id/donationRequest_type_SPN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_age_ET"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/donationRequest_number_ET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="    عدد الاكياس"
+            android:textColor="@color/red"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_type_SPN"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/donationRequest_adress_BTN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="عنوان المستشفي"
+            android:gravity="start"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_number_ET"
+            android:layout_marginBottom="40dp"/>
+
+        <Spinner
+            android:id="@+id/donationRequest_governoment_SPN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_adress_BTN"
+            android:layout_marginBottom="40dp"/>
+
+        <Spinner
+            android:id="@+id/donationRequest_ctiy_SPN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_governoment_SPN"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/donationRequest_phone_ET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="    رقم الهاتف"
+            android:textColor="@color/red"
+            android:layout_below="@id/donationRequest_ctiy_SPN"
+            android:layout_marginBottom="40dp"
+            style="@style/edittext"/>
+
+        <EditText
+            android:id="@+id/donationRequest_notes_ET"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:hint="    ملاحظات"
+            android:textColor="@color/red"
+            style="@style/edittext"
+            android:layout_below="@id/donationRequest_phone_ET"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/donationRequest_save_BTN"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="ارسال"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:background="@drawable/carvve_red"
+            android:layout_below="@id/donationRequest_notes_ET"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

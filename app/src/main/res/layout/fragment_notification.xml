@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/notification_Fragment"
+    tools:context=".view.fragment.home.NotificationFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/red"
+        android:text="التنبيهات"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+<RelativeLayout
+    android:id="@+id/recyclerview_relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/textView">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+
+<RelativeLayout
+        android:id="@+id/nonedata_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:visibility="gone">
+
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/notification"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="22dp"/>
+
+        <TextView
+            android:id="@+id/text_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="لا يوجد اشعارات الان \n من فضلك ابدا بانقاذ البشريه بالتبرع بالدم الان"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_below="@+id/imageView14"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/recyclerDonation_call_BTN"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="تبرع"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:background="@drawable/carve_orange"
+            android:layout_below="@+id/text_TV"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

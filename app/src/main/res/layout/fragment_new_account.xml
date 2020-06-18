@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".view.fragment.authCycle.NewAccountFragment">
+
+    <LinearLayout
+        android:id="@+id/new_account_fragment_lin_sub_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="انشاء حساب جديد "
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/newAcount_name_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_name_black_24dp"
+            android:hint="الاسم" />
+
+        <EditText
+            android:id="@+id/newAcount_email_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_email_black_24dp"
+            android:hint="البريد الالكتروني " />
+
+        <EditText
+            android:id="@+id/newAcount_data_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_date_black_24dp"
+            android:hint="تاريخ الميلاد" />
+
+        <Spinner
+            android:id="@+id/newAcount_type_SPN"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:hint="@string/blood_types" />
+
+        <EditText
+            android:id="@+id/newAcount_lastData_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_date_black_24dp"
+            android:hint="اخر تاريخ للتبرع " />
+
+        <Spinner
+            android:id="@+id/newAcount_governorate_SPN"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp" />
+
+        <Spinner
+            android:id="@+id/newAcount_city_SPN"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/newAcount_phone_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_call_black_24dp"
+            android:hint="رقم الهاتف " />
+
+        <EditText
+            android:id="@+id/newAcount_password_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/ic_password_black_24dp"
+            android:hint="كلمه المرور " />
+
+        <EditText
+            android:id="@+id/newAcount_passwordCheck_ET"
+            style="@style/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:drawableEnd="@drawable/ic_password_black_24dp"
+            android:hint="تاكيد كلمه المرور " />
+
+        <Button
+            android:id="@+id/save_btn"
+            style="@style/edittext"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/carve_gray"
+            android:gravity="center"
+            android:text="تسجيل" />
+
+    </LinearLayout>
+
+</ScrollView>

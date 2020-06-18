@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.home.ArticlesTabbFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/articles_Tabb_Fragment">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/carve_gray" />
+
+        <Button
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="25dp"
+            android:background="#00000000"
+            android:drawableEnd="@drawable/ic_search_black_24dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/imageView7"
+            android:layout_marginTop="15dp"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

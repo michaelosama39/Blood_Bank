@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".view.fragment.authCycle.ForgetPhoneFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:src="@drawable/login"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/forget_phone_ET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/imageView5"
+        android:layout_margin="20dp"
+        android:background="@drawable/carve_gray"
+        android:hint="الجوال"
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/forget_phone_BTN"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="دخول"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/carve_gray"
+        android:layout_below="@id/forget_phone_ET"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
